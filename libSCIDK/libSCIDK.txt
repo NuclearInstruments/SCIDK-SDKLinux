@@ -1,0 +1,1 @@
+./Debug/src_FTDI_CPP_DLL.cpp.o ./Debug/src_SCIDK_API_C.cpp.o

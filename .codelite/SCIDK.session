@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Session Name="/home/user/Documents/SCIDK/SCIDK.workspace">
+  <int Value="8" Name="m_selectedTab"/>
+  <wxString Value="/home/user/Documents/SCIDK/SCIDK.workspace" Name="m_workspaceName"/>
+  <TabInfoArray Name="TabInfoArray">
+    <TabInfo>
+      <wxString Value="/home/user/Documents/SCIDK/libSCIDK/include/SCIDK_API_C.h" Name="FileName"/>
+      <int Value="33" Name="FirstVisibleLine"/>
+      <int Value="17" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="/home/user/Documents/SCIDK/libSCIDK/include/FTDI_CPP_DLL.h" Name="FileName"/>
+      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="8" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="/home/user/Documents/SCIDK/libSCIDK/src/SCIDK_API_C.cpp" Name="FileName"/>
+      <int Value="60" Name="FirstVisibleLine"/>
+      <int Value="61" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="/home/user/Documents/SCIDK/libSCIDK/src/FTDI_CPP_DLL.cpp" Name="FileName"/>
+      <int Value="234" Name="FirstVisibleLine"/>
+      <int Value="273" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="/home/user/Documents/SCIDK/libSCIDK/include/ftd2xx.h" Name="FileName"/>
+      <int Value="43" Name="FirstVisibleLine"/>
+      <int Value="70" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="/home/user/Documents/SCIDK/libSCIDK/include/WinTypes.h" Name="FileName"/>
+      <int Value="102" Name="FirstVisibleLine"/>
+      <int Value="155" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="/home/user/Documents/SCIDK/SciDKSDK_test/main.c" Name="FileName"/>
+      <int Value="16" Name="FirstVisibleLine"/>
+      <int Value="34" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="/home/user/GIT/scidk_sdk/SCIDK_TestApp/SCIDK_TestApp.cpp" Name="FileName"/>
+      <int Value="60" Name="FirstVisibleLine"/>
+      <int Value="82" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="/home/user/Documents/SCIDK/pythonTest/MyFirstProject_example.py" Name="FileName"/>
+      <int Value="18" Name="FirstVisibleLine"/>
+      <int Value="47" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="/home/user/Documents/SCIDK/pythonTest/MyFirstProject_RegisterFile.py" Name="FileName"/>
+      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="3" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+  </TabInfoArray>
+  <SerializedObject Name="m_breakpoints">
+    <long Value="0" Name="Count"/>
+  </SerializedObject>
+</Session>
