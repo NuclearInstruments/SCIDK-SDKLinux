@@ -41,7 +41,7 @@ IncludePCH             :=
 RcIncludePath          := 
 Libs                   := $(LibrarySwitch)SCIDK 
 ArLibs                 :=  "SCIDK" 
-LibPath                := $(LibraryPathSwitch). 
+LibPath                := $(LibraryPathSwitch)  ../libSCIDK/Debug/ 
 
 ##
 ## Common variables
