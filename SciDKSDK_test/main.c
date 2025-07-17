@@ -10,6 +10,9 @@
 #define SCI_REG_Oscilloscope_0_CONFIG_ARM 0x10005
 #define SCI_REG_Oscilloscope_0_CONFIG_DECIMATOR 0x10006
 
+int OSCILLOSCOPE_Oscilloscope_0_START(NI_HANDLE *handle);
+int OSCILLOSCOPE_Oscilloscope_0_SET_PARAMETERS(int32_t decimator, int32_t pre, int32_t software_trigger, int32_t analog_trigger, int32_t digital0_trigger, int32_t digital1_trigger, int32_t digital2_trigger, int32_t digital3_trigger, int32_t trigger_channel, int32_t trigger_edge, int32_t trigger_level, NI_HANDLE *handle);
+
 
 int main(int argc, char **argv)
 {
@@ -90,7 +93,7 @@ int OSCILLOSCOPE_Oscilloscope_0_SET_PARAMETERS(int32_t decimator, int32_t pre, i
 	int r_triglevel = NI_WriteReg(trigger_level, SCI_REG_Oscilloscope_0_CONFIG_TRIGGER_LEVEL, handle);
 	triggermode = (trigger_channel << 8) + (software_trigger << 7) + (trigger_edge << 3) + (software_trigger << 1) + analog_trigger + (digital0_trigger << 2) + (digital1_trigger << 2) + digital1_trigger + (digital2_trigger << 2) + (digital2_trigger << 1) + (digital3_trigger << 2) + (digital3_trigger << 1) + digital3_trigger;
 	int r_triggermode = NI_WriteReg(triggermode, SCI_REG_Oscilloscope_0_CONFIG_TRIGGER_MODE, handle);
-	if (r_decimator == 0 & r_pre == 0 & r_triglevel == 0 & r_triggermode == 0)
+	if ((r_decimator == 0) & (r_pre == 0) & (r_triglevel == 0) & (r_triggermode == 0))
 		return 0;
 	else
 		return -1;
